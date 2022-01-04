@@ -1,4 +1,11 @@
-print('Hello World!!!')
-print('Enter your name:')
-x = input()
-print('Hello, ' + x)
+import turtle
+skk = turtle.Turtle()
+ 
+for i in range(4):
+    skk.forward(50)
+    skk.right(90)
+     
+skk.left(90)
+skk.forward(50)
+
+turtle.done()
